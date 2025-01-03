@@ -1,0 +1,13 @@
+.dashboard {
+    padding: 20px;
+    background-color: #121212;
+    min-height: 100vh;
+    color: white;
+}
+
+.dashboard-panel {
+    padding: 20px;
+    background-color: #1e1e2f;
+    color: white;
+    border-radius: 8px;
+}

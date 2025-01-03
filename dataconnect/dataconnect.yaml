@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "Expense_tracker2.0"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "Expense_tracker2.0-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

@@ -1,4 +1,4 @@
-/* Set background image for the entire app */
+/* Set background image for the entire app*/
 .app-container {
   background-image: url('../public/falling-money-background-axrrwu2p9fksr8u4.webp');
   background-size: cover;
@@ -13,13 +13,14 @@
 }
 
 /* Glass overlay for the app content */
+
 .glass-overlay {
   background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(2px);
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  width: 90%;
+  width: 98%;
   max-width: 1200px;
   height: 90%;
   display: flex;
@@ -35,4 +36,4 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+} 
